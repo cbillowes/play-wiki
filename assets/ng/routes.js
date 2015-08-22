@@ -2,7 +2,7 @@
 angular.module('playWiki').config(function($routeProvider) {
   $routeProvider
     .when('/home', {
-      controller: 'IndexCtrl',
+      controller: 'HomeController',
       templateUrl: "/assets/ng/templates/index.html"
     })
     .when('/new', {
