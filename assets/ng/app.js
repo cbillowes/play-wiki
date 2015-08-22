@@ -1,10 +1,10 @@
 angular
     .module('playWiki', [
-        'ngResource', 
-        'ngRoute', 
-        'ngAria', 
-        'ngMaterial', 
-        'ngMdIcons', 
+        'ngResource',
+        'ngRoute',
+        'ngAria',
+        'ngMaterial',
+        'ngMdIcons',
         'firebase'
     ])
     .constant('fb', {
