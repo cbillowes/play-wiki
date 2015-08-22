@@ -6,11 +6,11 @@ angular.module('playWiki').config(function($routeProvider) {
       templateUrl: "/assets/ng/templates/index.html"
     })
     .when('/new', {
-      controller: 'WikiNewCtrl',
+      controller: 'NewWikiController',
       templateUrl: "/assets/ng/templates/wiki-new.html"
     })
     .when('/wiki/:wikiId', {
-      controller: 'WikiShowCtrl',
+      controller: 'ShowWikiController',
       templateUrl: '/assets/ng/templates/wiki-show.html'
     })
     .otherwise({
