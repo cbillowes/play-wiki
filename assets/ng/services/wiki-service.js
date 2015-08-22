@@ -1,5 +1,5 @@
 
-angular.module('codedInBraam').service('WikiService', function($location, $firebaseArray, $firebaseObject, fb) {
+angular.module('playWiki').service('WikiService', function($location, $firebaseArray, $firebaseObject, fb) {
   this.getAllWikis = function(){
     var ref = new Firebase(fb.url + '/wikis');
     return $firebaseArray(ref);

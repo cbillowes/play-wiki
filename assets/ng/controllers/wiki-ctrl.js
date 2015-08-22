@@ -1,4 +1,4 @@
-angular.module('codedInBraam')
+angular.module('playWiki')
   .controller('WikiNewCtrl', function($scope, $routeParams, WikiService) {
     $scope.newWiki = function(wikiData) {
       WikiService.createWiki(wikiData);

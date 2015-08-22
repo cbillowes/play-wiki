@@ -1,5 +1,5 @@
 
-angular.module('codedInBraam').config(function($routeProvider) {
+angular.module('playWiki').config(function($routeProvider) {
   $routeProvider
     .when('/home', {
       controller: 'IndexCtrl',

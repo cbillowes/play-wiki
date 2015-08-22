@@ -1,5 +1,5 @@
 angular
-    .module('codedInBraam', [
+    .module('playWiki', [
         'ngResource', 
         'ngRoute', 
         'ngAria', 
